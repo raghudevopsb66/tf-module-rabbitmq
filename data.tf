@@ -8,8 +8,8 @@ data "aws_ssm_parameter" "ssh_credentials" {
 
 data "aws_ami" "ami" {
   most_recent = true
-  name_regex  = "centos7-devops-practice-with-ansible"
-  owners      = ["self"]
+  name_regex  = "Centos-7-DevOps-Practice"
+  owners      = ["973714476881"]
 }
 
 data "aws_route53_zone" "private" {
